@@ -181,20 +181,17 @@
 
   /* change your habit section start here  */
     .change-your-habit-section{
-        border: 2px solid violet;
         max-width: 1440px;
-        min-height: 500px;
+        background-color:rgba(17, 17, 17, 1);
+
     }
     .change-your-habit-container{
-        border: 2px solid red;
         /* width: 1044px; */
         width: 80%;
         min-height: 500px;
         margin: 100px auto;
     }
     .change-your-habit-text{
-      
-        border: 2px solid black;
         width: 70%;
         margin: 0 auto;
     }
@@ -209,30 +206,47 @@
     }
     .change-habit-action-container{
         margin-top: 58px;
-        border: 2px solid blue;
+        display: grid;
+        grid-template-columns: repeat(4 ,25%);
+        justify-content: space-evenly;
         
     }
-    .action-container-1{
-      border: 2px solid black;  
-      width: 231px;
+    .action-container-1{ 
+      width: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
     .action-container-2{
-    border: 2px solid black;
-    width: 231px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     .action-container-3{
-    border: 2px solid black;
-    width: 231px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     .action-container-4{
-    border: 2px solid black;
-    width: 231px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     .img-1 , 
     .img-2 ,
     .img-3 ,
     .img-4 {
-        border: 2px solid violet;
         width: 55%;
     }
     .img-1 img , 
@@ -242,6 +256,13 @@
        width: 100%;
        border-radius: 50%;
     }
-  /* change your habit section ends here  */img 
+    /* share margin for image container */
+    .margin-img{
+        margin-top: 30px;
+    }
+    .margin-short{
+        margin-top: 10px;
+    }
+  /* change your habit section ends here  */
 
   /* header section ends  here  */
