@@ -6,6 +6,7 @@
   }
   .miama-font{
       font-family: 'Miama', sans-serif;
+      font-style: italic;
   }
                                                   
   /* font set ends here  */
@@ -22,17 +23,38 @@
   .grid{
       display: grid;
   }
-  .btn-primary{
+  .btn-home{
       width: 92px;
       height: 38px;
       border-radius: 46px;
       background-color:rgba(230, 83, 60, 1);
-      text-align: center;
       color: #ffff;
       border: none;
   }
+  .btn-primary{
+    width: 224px;
+    height: 56px;
+    border-radius: 46px;
+    background-color:rgba(230, 83, 60, 1);
+    color: #ffff;
+    border: none;
+  }
+  .btn-download{
+    width: 224px;
+    height: 56px;
+    border-radius: 46px;
+    background-color: transparent;
+    color: #ffff;
+    border: 2px solid white;
+  }
+  .primary-color{
+    color:rgba(239, 237, 232, 0.65);
+  }
   .orange{
       color:rgba(230, 83, 60, 1);
+  }
+  .white{
+    color: #ffff;
   }
   
   /* shared style ends  here  */ 
@@ -42,19 +64,19 @@
   /* navication section start here  */
   header{
       max-width: 1440px;
-      height: 700px;
-      border: 2px solid violet;
-      /* background-color: rgb(109, 138, 33); */
+      background-color:rgba(17, 17, 17, 1);
+    
   }
   .nav-wraper{
       margin-top: 20px;
       width: 100%;
       display: flex;
       justify-content: center;
-      background-color: black;
+      background-color: rgba(17, 17, 17, 1);
+      padding: 5px 0;
      
   }
-  .nav-bar {
+  .nav-bar-main{
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -70,7 +92,8 @@
       display: flex;
       align-items: center;
       border-radius: 39px;
-      box-shadow: 2px 3px 5px lightgray;
+      /* border: 1px double gray; */
+      box-shadow: .50px .50px 1px lightgray;
       padding: 8px; 
   }
   .nav-links a , .nav-links li{
@@ -80,7 +103,81 @@
       margin-left: 40px;
   }
   
+  .hamburger-menu{
+    background-color: wheat;
+    display: none;
+  }
+  /* navication section ends here  */
   
-  /* navication section start here  */
-  
+  /* banner section start here  */
+  .banner-section-container{
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .banner-text{
+        width: 45%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+  }
+  .banner-title{
+        color:#ffff;
+        font-size: xx-large;
+        font-weight: bolder;
+        width: fit-content;
+  }
+  .banner-description{
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+  .btn-container{
+    display: flex;
+    gap: 14px;
+}
+  .banner-img{
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        
+  }
+  .banner-img > img{
+   position: relative;
+  }
+  .five-hundred{
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 45%;
+    left: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+  .three-hundred{
+        width: 193px;
+        height: 98px;
+        border-radius: 12px;
+        background-color: rgba(48, 48, 48, 0.54);
+        position: absolute;
+        top: 85%;
+        left: 58%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   
+  }
+
+  /* banner section ends  here  */
+
+
   /* header section ends  here  */

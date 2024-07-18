@@ -1,0 +1,54 @@
+
+/* small or mobile  device  */
+
+@media screen and (max-width:576px) {
+
+    /* nav secton start  */
+    .nav-links{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+        background-color: white;
+    }
+    /* nav section end  */
+
+    /* banner section start  */
+    .banner-section-container{
+        flex-direction: column;
+    }
+    .banner-text{
+        margin-left: 15px;
+        margin-top: 51px;
+    }
+    .banner-title ,
+    .banner-description{
+        margin: 10px auto;
+        width: 200px;
+    }
+    .btn-container{
+        display: flex;
+        gap: 5px;
+    }
+    .btn-primary , .btn-download{
+        margin-left: 0;
+        width: 158px;
+    }
+    .banner-img > img{
+        background-color: rgba(17, 17, 17, 1);
+       }
+    .five-hundred{
+        /* top: 136%;
+        left: 50%; */
+        top: 570px ;
+        left: 190px;
+    }
+    .three-hundred{
+        /* top: 170%;
+        left: 15px; */
+        top:800px;
+        left: 25px;
+    }
+    /* banner section end  */
+    
+}
