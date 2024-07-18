@@ -32,22 +32,28 @@
     }
     .btn-primary , .btn-download{
         margin-left: 0;
-        width: 158px;
+        width: 140px;
     }
+    
     .banner-img > img{
+        /* width: 100%; */
         background-color: rgba(17, 17, 17, 1);
        }
     .five-hundred{
         /* top: 136%;
         left: 50%; */
-        top: 570px ;
-        left: 190px;
+        top: 630px ;
+        left: 160px;
+        width: 130px;
+        height: 98px;
     }
     .three-hundred{
         /* top: 170%;
         left: 15px; */
         top:800px;
         left: 25px;
+        width: 130px;
+         height: 98px;
     }
     /* banner section end  */
     
