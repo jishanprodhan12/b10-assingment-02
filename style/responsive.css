@@ -60,10 +60,24 @@
         width: 130px;
          height: 98px;
     }
+   
     /* banner section end  */
 
     /* change your habit section start */
-    
+    .change-your-habit-container{
+        margin-top: 0px;
+
+    }
+    .change-your-habit-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .change-habit-action-container{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 40px;
+        
+    }
     
     /* change your habit section ends */
 
