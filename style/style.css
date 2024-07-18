@@ -179,5 +179,69 @@
 
   /* banner section ends  here  */
 
+  /* change your habit section start here  */
+    .change-your-habit-section{
+        border: 2px solid violet;
+        max-width: 1440px;
+        min-height: 500px;
+    }
+    .change-your-habit-container{
+        border: 2px solid red;
+        /* width: 1044px; */
+        width: 80%;
+        min-height: 500px;
+        margin: 100px auto;
+    }
+    .change-your-habit-text{
+      
+        border: 2px solid black;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .habit-title{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    .change-your-habit-description{
+        margin-top: 14px;
+        text-align: center;           
+    }
+    .change-habit-action-container{
+        margin-top: 58px;
+        border: 2px solid blue;
+        
+    }
+    .action-container-1{
+      border: 2px solid black;  
+      width: 231px;
+    }
+    .action-container-2{
+    border: 2px solid black;
+    width: 231px;
+    }
+    .action-container-3{
+    border: 2px solid black;
+    width: 231px;
+    }
+    .action-container-4{
+    border: 2px solid black;
+    width: 231px;
+    }
+    .img-1 , 
+    .img-2 ,
+    .img-3 ,
+    .img-4 {
+        border: 2px solid violet;
+        width: 55%;
+    }
+    .img-1 img , 
+    .img-2 img ,
+    .img-3 img ,
+    .img-4 img {
+       width: 100%;
+       border-radius: 50%;
+    }
+  /* change your habit section ends here  */img 
 
   /* header section ends  here  */

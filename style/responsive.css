@@ -16,10 +16,12 @@
     /* banner section start  */
     .banner-section-container{
         flex-direction: column;
+
     }
     .banner-text{
         margin-left: 15px;
         margin-top: 51px;
+        
     }
     .banner-title ,
     .banner-description{
@@ -34,15 +36,18 @@
         margin-left: 0;
         width: 140px;
     }
-    
+    .banner-img{
+        width: 100%;
+        margin-top: 10px;
+    }
     .banner-img > img{
-        /* width: 100%; */
         background-color: rgba(17, 17, 17, 1);
+        width: 100%;
        }
     .five-hundred{
         /* top: 136%;
         left: 50%; */
-        top: 630px ;
+        top: 600px ;
         left: 160px;
         width: 130px;
         height: 98px;
@@ -56,5 +61,11 @@
          height: 98px;
     }
     /* banner section end  */
+
+    /* change your habit section start */
+    
+    
+    /* change your habit section ends */
+
     
 }
