@@ -1,0 +1,86 @@
+/* font set start here  */
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .miama-font{
+      font-family: 'Miama', sans-serif;
+  }
+                                                  
+  /* font set ends here  */
+  /* universal selector */
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: 0;
+  }
+  /* shared style start here  */ 
+  .flex{
+      display: flex;
+  }
+  .grid{
+      display: grid;
+  }
+  .btn-primary{
+      width: 92px;
+      height: 38px;
+      border-radius: 46px;
+      background-color:rgba(230, 83, 60, 1);
+      text-align: center;
+      color: #ffff;
+      border: none;
+  }
+  .orange{
+      color:rgba(230, 83, 60, 1);
+  }
+  
+  /* shared style ends  here  */ 
+  
+  /* header section start here  */
+  
+  /* navication section start here  */
+  header{
+      max-width: 1440px;
+      height: 700px;
+      border: 2px solid violet;
+      /* background-color: rgb(109, 138, 33); */
+  }
+  .nav-wraper{
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: black;
+     
+  }
+  .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%; 
+  }
+  .nav-title{
+      font-size: xx-large;
+      font-weight: bolder;
+      font-style: italic;
+      
+  }
+  .nav-links{
+      display: flex;
+      align-items: center;
+      border-radius: 39px;
+      box-shadow: 2px 3px 5px lightgray;
+      padding: 8px; 
+  }
+  .nav-links a , .nav-links li{
+      text-decoration: none;
+      color: white;
+      list-style: none;
+      margin-left: 40px;
+  }
+  
+  
+  /* navication section start here  */
+  
+  /* header section ends  here  */
