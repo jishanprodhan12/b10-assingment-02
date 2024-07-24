@@ -189,11 +189,22 @@
         top: 70%;
         left: 10%;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 7px;
         filter: blur(30%);
-   
+  }
+  .three-dot{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+  }
+  .three-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   /* banner section ends  here  */
