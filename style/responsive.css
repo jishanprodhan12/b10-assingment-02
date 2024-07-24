@@ -45,18 +45,14 @@
         width: 100%;
        }
     .five-hundred{
-        /* top: 136%;
-        left: 50%; */
-        top: 600px ;
-        left: 160px;
+        top: 20%;
+        left: 58%;
         width: 130px;
         height: 98px;
     }
     .three-hundred{
-        /* top: 170%;
-        left: 15px; */
-        top:800px;
-        left: 25px;
+        top: 70%;
+        left: 10%;
         width: 130px;
          height: 98px;
     }

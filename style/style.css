@@ -164,7 +164,6 @@
         display: flex;
         justify-content: center;
         position: relative;
-        border: 2px solid violet;
   }
   .five-hundred{
     width: 193px;
