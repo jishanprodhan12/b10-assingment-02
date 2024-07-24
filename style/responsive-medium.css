@@ -1,0 +1,95 @@
+/* for tablet and medium devices  */
+@media screen and (min-width: 577px) and (max-width : 992px) {
+    .nav-bar-main {
+        justify-content: space-evenly;
+        gap: 35px;
+    }
+    .banner-section-container{
+        flex-direction: column;
+    }
+    .banner-text {
+        width: 60%;
+        margin: 40px 0;
+    }
+    .banner-title {
+       height: 190px;
+       width: 250px;
+       transform: scale(1.3);
+       margin-top: 20px;
+    }
+    .five-hundred {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+    }
+    .three-hundred {
+        position: absolute;
+        top: 120%;
+        left: 20%;
+    }
+    .change-habit-action-container {
+        grid-template-columns: repeat(2, 50%);
+        justify-content: space-around;
+        gap: 40px;  
+    }
+    .running-pic{
+        background-image: url('../images/run.jpg');
+        background-repeat: no-repeat;
+        background-position: -350px;
+        background-size: 45em;
+    }
+    .running-pic img{
+        height: 100%;
+        display: none;
+    }
+    .exercises-section {
+        padding-bottom: 20px;
+    }
+    .bmi-calculator-container {
+        width: 90%;
+    }
+    .bmi-section-container{
+        flex-direction: column;
+    }
+    .table-container {
+       width: 400px;
+    }
+    .table-caption {
+        width: 400px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .calculate-bmi-peragraph{
+        width: 600px;
+    }
+    .bmi-input-container{
+        width: 600px;
+    }
+    #sex {
+        width: 97%;
+    } 
+    #factor{
+        width: 98%;
+    }
+    .our-team-peragraph{
+        min-width: 550px;
+    }
+    .our-team-photo-container{
+        width: 80%;
+    }
+    .about-us-section{
+        flex-direction: column;
+    }
+    .fitness-title {
+        transform: scale(1.75) translateX(60px);
+    }
+    .about-us-peragraph{
+        min-width: 420px;
+    }
+    .get-started-container{
+        margin: 0 auto;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+}

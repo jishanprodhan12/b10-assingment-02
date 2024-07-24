@@ -30,6 +30,18 @@
       background-color:rgba(230, 83, 60, 1);
       color: #ffff;
       border: none;
+      
+  }
+  .btn-home:hover ,.btn-primary:hover ,
+  .btn-download:hover {
+    transition: background-color 1ms 1s , transform 1ms 1s;
+    background-color: gray;
+    transform:scale(1.1) ; 
+    cursor:pointer;
+  }
+  .nav-links a:hover{
+    color: red;
+    
   }
   .btn-primary{
     width: 224px;
@@ -56,7 +68,12 @@
   .white{
     color: #ffff;
   }
-  
+  .share-title{
+    color:#ffff;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: fit-content;
+}
   /* shared style ends  here  */ 
   
   /* header section start here  */
@@ -64,11 +81,12 @@
   /* navication section start here  */
   header{
       max-width: 1440px;
+      margin: 0 auto;
       background-color:rgba(17, 17, 17, 1);
     
   }
   .nav-wraper{
-      margin-top: 20px;
+      padding-top: 30px;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -85,9 +103,12 @@
   .nav-title{
       font-size: xx-large;
       font-weight: bolder;
-      font-style: italic;
-      
+      font-style: italic;    
   }
+    .nav-bar-main:hover .nav-title{
+        transition: transform ease 1s 10ms;
+        transform: scale(1.4) ;
+    }
   .nav-links{
       display: flex;
       align-items: center;
@@ -178,19 +199,22 @@
   }
 
   /* banner section ends  here  */
-
+  /* header section ends   */
+  /* main section   */
   /* change your habit section start here  */
     .change-your-habit-section{
         max-width: 1440px;
+        margin: 0 auto;
         background-color:rgba(17, 17, 17, 1);
-
     }
     .change-your-habit-container{
         /* width: 1044px; */
         width: 80%;
         min-height: 500px;
-        margin: 100px auto;
+        margin: 0 auto;
+        padding-top: 20px;
     }
+    
     .change-your-habit-text{
         width: 70%;
         margin: 0 auto;
@@ -256,6 +280,23 @@
        width: 100%;
        border-radius: 50%;
     }
+    .action-container-1:hover .img-1 ,
+    .action-container-2:hover .img-2 ,
+    .action-container-3:hover .img-3 ,
+    .action-container-4:hover .img-4 ,
+    .action-container-5:hover .img-5 ,
+    .action-container-6:hover .img-6{
+        transition: transform  .50s ;
+    }
+    .action-container-1:hover .img-1 ,
+    .action-container-2:hover .img-2 ,
+    .action-container-3:hover .img-3 ,
+    .action-container-4:hover .img-4 ,
+    .action-container-5:hover .img-5 ,
+    .action-container-6:hover .img-6{ 
+        transform:scale(1.2)translateY(-2px) ; 
+        cursor:pointer;
+    }
     /* share margin for image container */
     .margin-img{
         margin-top: 30px;
@@ -265,4 +306,409 @@
     }
   /* change your habit section ends here  */
 
-  /* header section ends  here  */
+    /* run extra section start here  */
+    .run-extra-section{
+        max-width: 1440px;
+        margin: 0 auto;
+        background-color: rgba(17, 17, 17, 1);
+    }
+    .run-extra-container{
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(34, 34, 34, 1);
+        width: 80%;
+        margin: 0 auto;
+    }
+    .run-extra-text{
+        width: 50%;
+        padding: 10px;
+    }
+   
+    .running-pic{
+        width: 30%;
+        border-radius: 18px;
+        background-image: url('../images/run.jpg');
+        background-repeat: no-repeat;
+        background-position: -300px;
+        background-position-y: 20%;
+        background-size: 45em;
+    }
+    /* run extra section ends here  */
+
+        /* trainer and exersicses section start here  */
+    .exercises-section{
+        max-width: 1440px;
+        margin: 0 auto;
+        min-height: 600px;
+        background-color: rgba(17, 17, 17, 1);
+        margin-top: 0;
+    }
+    .exersises-text-container{
+        width: 70%;
+        margin: 0 auto;
+        background-color: rgba(17, 17, 17, 1);
+        padding-top: 30px;
+
+    }
+    .exersises-titile{
+        padding: 10px 0;
+        font-weight: bolder;
+        transform: scale(1.25) ;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .exersises-peragraph{
+        margin-top: 25px;
+    }
+    /* exersise image banner start here  */
+    .exersises-imager-container{
+        width: 70%;
+        height: 400px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+   
+    .box-1{
+        
+        background-image: url('../images/exercise1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+
+    }
+    .box-2{
+        background-image: url('../images/exercise2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: span 2;
+
+    }
+    .box-3{
+        background-image: url('../images/exercise3.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box-4{
+        background-image: url('../images/exercise4.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: span 2;
+      
+    }
+    .box-5{
+        background-image: url('../images/exercise5.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+    }
+    .box-6{
+        background-image: url('../images/exercise6.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+        /* tariner and exersicses section ends here  */
+
+    /* <!-- BMI-calculator section start here  --> */
+    .bmi-calculator-section{
+        max-width: 1440px;
+        min-height: 200px;
+        margin: 0 auto;
+        padding-top: 30px;
+        background-color: rgba(17, 17, 17, 1);
+    }
+    .bmi-calculator-container{
+        width: 60%;
+        margin: 0px auto;
+        padding: 80px 0;
+    }
+    /* <!-- BMI-calculator section end here  --> */
+
+    /* <!-- BMI section start here  --> */
+    .bmi-section{
+        max-width: 1440px;
+        margin: 0 auto;
+        background-color: rgba(34, 34, 34, 1);
+    }
+    .bmi-section-container{
+        width: 80%;
+        min-height: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+      /* table style start here  */
+      .bmi-chart-container{
+        width: 40%;
+     }
+    .table-caption{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .table-container{
+        width: 90%;
+        height: 50%;
+        border-collapse: collapse;
+        margin: 50px auto;
+        text-align: left;
+    }
+    td ,th{
+        border: 1px solid gray;
+        padding: 10px 20px;
+    }
+/* table style end here  */
+/* bmi-calculate section start here  */
+    .calculate-bmi-container{
+        width: 50%;
+        padding-top: 40px;
+
+    }
+    .calculate-bmi-peragraph{
+        margin-top: 30px;
+    }
+    .bmi-input-container{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        padding: 10px;
+      
+    }
+    .input-5{ 
+        grid-column: span 2;
+    }
+    .height-cm , .weight-cm , .age {
+        width: 82%;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: gray;
+        color: black;
+        border: none;
+    }
+    .height-cm::placeholder{
+        color: white;
+    }
+    .weight-cm::placeholder{
+        color: white;
+    }
+    .age::placeholder{
+        color: white;
+    }
+    #sex{
+        background-color: gray;
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+    #factor{
+        background-color: gray;
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+    .calculate-btn-container{
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .calculate-btn-container:hover .cal{
+        transition: transform ease 1s 1s;
+        transform: scale(.75);
+        background-color: rgb(90, 121, 90);
+    }
+    .cal{
+        font-size: medium;
+    }
+    /* bmi-calculate section ends here  */
+    /* <!-- BMI section ends here  --> */
+    
+    /* <!-- meet our team section start here  --> */
+            .meet-our-team-section{
+                max-width: 1440px;
+                margin: 0 auto;
+                background-color: rgba(17, 17, 17, 1);
+
+            }
+            .our-team-text-container{
+                width: 55%;   
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding-top:  40px ;
+                background-color: rgba(17, 17, 17, 1);
+                padding-bottom: 20px;
+            }
+            .our-team-photo-container{
+                width: 70%;
+                margin: 0 auto;
+                height: 450px;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap: 10px;
+                padding: 30px;
+                background-color: rgba(34, 34, 34, 1);
+            }
+           
+            .photo-1 {            
+                background-image: url('../images/trainer1.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 16px;
+                filter: brightness(90%);
+                 
+            }
+            .photo-2 {    
+                background-image: url('../images/trainer2.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 16px;
+                filter: brightness(90%);
+            }
+            .photo-3{   
+                background-image: url('../images/trainer3.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 16px;
+                filter: brightness(90%);
+                
+            } 
+            .photo-4 {
+                background-image: url('../images/trainer4.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 16px; 
+                filter: brightness(90%);
+            }
+            .photo-5 {
+                background-image: url('../images/trainer5.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 16px;   
+                filter: brightness(90%); 
+            }
+            .photo-6 {
+                background-image: url('../images/trainer6.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 16px;
+                filter: brightness(90%);
+  
+            }
+            .photo-1:hover .name ,
+            .photo-2:hover .name ,
+            .photo-3:hover .name ,
+            .photo-4:hover .name ,
+            .photo-5:hover .name ,
+            .photo-6:hover .name {
+                transition: transform step-end 1s 5ms ,color step-end 1s 5ms;
+                transform: scale(1.2) translateX(8px);
+                color: yellow;
+             }
+            /* share margin and color for photo text start */
+            .photo-text-margin{
+                margin-top: 160px;
+                margin-left: 18px;
+                margin-bottom: 20px;
+            }
+            .name{
+                color:white;
+                font-weight: bolder;
+                margin-bottom: 7px;
+            }
+            .trainer{
+                color:rgba(239, 237, 232, 0.932);
+                font-size: small;
+            }
+            /* share margin and color for photo text end  */
+     /* <!-- meet our team section ends here  --> */
+     /* footer section start here  */
+     .about-us-section{
+        max-width: 1440px;
+        min-height: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(34, 34, 34, 1);
+     }
+     .about-us-container{
+        width: 45%;
+        min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+     }
+     
+     .about-us-inner-container{
+        width: 80%;
+     }
+     .fitness-title{
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: italic;
+        transform: scale(1.75) translateX(95px);
+        margin: 20px 0;
+     }
+     .get-started-container{
+        width: 50%;
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+     }
+     .get-start-1 , .get-start-2 {
+        width: 45%;
+     }
+     .start-links , .start-links a{
+        text-decoration: none;
+        list-style: none;
+        margin-top: 5px;
+         color:rgba(239, 237, 232, 0.65);
+         font-size: larger;
+
+     }
+     .start-links > li{
+        padding-top: 20px;
+     }
+     .start-links :hover a{
+        color: red;
+     }
+     .copyright-section{
+        max-width: 1440px;
+        margin: 0 auto;
+        background-color: rgba(34, 34, 34, 1);
+     }
+    .copyright-boder{
+        border: 1px dotted gray;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        color:rgba(239, 237, 232, 0.65);
+        
+    }
+    

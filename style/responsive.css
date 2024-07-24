@@ -66,6 +66,7 @@
     /* change your habit section start */
     .change-your-habit-container{
         margin-top: 0px;
+        margin-bottom: 0px;
 
     }
     .change-your-habit-text{
@@ -76,10 +77,243 @@
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
         gap: 40px;
+        justify-items: center;
         
     }
     
     /* change your habit section ends */
 
+    /* exercises-section start  */
+    .exersises-text-container{
+        width: 95%;
+    }
+    .ex-title{
+        height: max-content;
+        display: flex;
+        padding-left: 10px;
+    }
+    .exersises-titile{
+      transform: none;
+      margin-left: 10px;
+      width: 80%;
+      font-size: xx-large;
+
+    }
+    .exersises-peragraph{
+        width: 90%;
+        padding-left: 10px;
+    }
+    .exersises-imager-container{
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .box-1{
+        display: block;
+        grid-column: span 1;
+    }
+    .box-2{
+        display: block;
+        grid-column: span 1;
+        background-position:  right ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box-3{
+        display: none;
+    }
+    .box-4{
+        display: block;
+        grid-column: span 1;
+        background-position:  top center ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box-5{
+        display: block;
+        grid-column: span 1;
+
+    }
+    .box-6{
+        display: none;
+        background-position:  right ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* run extra section start  */
+    .run-extra-section{
+        margin-top: 0;
+    }
+    .run-extra-container{
+        flex-direction: column;
+        background-color: rgba(34, 34, 34, 1);
+        width: 80%;
+        margin: 0 auto;
+    }
+    .run-extra-text{
+        width: 100%;
+        padding: 10px;
+    }
+    .run-btn-container .btn-home{
+        width: 90%;
+    }
+    .running-pic{
+        width: 100%;
+        height: 200px;
+        background-image: url('../images/run.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150%;
+        }
+    /* run extra section end  */
+      /* trainer and exersicses section start here  */
+      .exercises-section{
+        max-width: 1440px;
+        min-height: 600px;
+        background-color: rgba(17, 17, 17, 1);
+        padding-bottom: 10px;
+
+    }
+    .exersises-text-container{
+        width: 100%;
+        height: fit-content;
+    }
+    .exersises-titile{
+        padding: 0px 0;
+        font-weight: bolder;
+        transform: none ;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .exersises-peragraph{
+        margin-top: 25px;
+    }
+        /* tariner and exersicses section ends here  */
+
+     /* <!-- BMI-calculator section start here  --> */
     
+    .bmi-calculator-container{
+        width: 85%;
+        margin: 0px auto;
+    }
+    /* <!-- BMI-calculator section end here  --> */
+
+    /* <!-- BMI section start here  --> */
+    .bmi-section-container{
+       flex-direction: column;
+       width: 90%;
+       
+    }
+    .bmi-chart-container{
+        width: 100%;
+     }
+     .table-container{
+        width: 100%;
+        margin: 50px auto;
+    }
+    .calculate-bmi-container{
+        width: 100%;
+        padding-top: 40px;
+
+    }
+    .bmi-input-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 8px;
+        padding: 5px;
+        width: 95%;
+    }
+    .height-cm , .weight-cm , .age {
+        width: 70%;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: gray;
+        color: black;
+        border: none;
+    }
+    .calculate-btn-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+  
+    }
+    .cal{
+        width: 70%;
+    }
+    /* <!-- BMI section ends here  --> */
+    
+    /* <!-- meet our team section start here  --> */
+    .our-team-text-container{
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-right: 5%;
+       
+    }
+    .our-team-photo-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 20px;
+        height: max-content;
+    }
+    .photo-1{
+        display: none;
+    }
+    .photo-2 {
+           display: block;
+    }
+    
+    .photo-3 {
+           display: block;
+    }
+    .photo-4 {
+           display: none;
+    }
+    .photo-5 {
+        display: block;
+    }
+    .photo-6 {
+           display: block;
+    }
+
+    /* <!-- meet our team section ends here  --> */
+
+    /* footer section start here  */
+    
+    .about-us-section{
+      flex-direction: column;
+      border: none;
+      
+     }
+     .fitness-title{
+        transform: none;
+        margin: 20px 0;
+     }
+     .about-us-peragraph{
+        width: 245px;
+     }
+     .about-us-container{
+        width: 99%;
+        padding: 0;
+     }
+     .about-us-inner-container  {
+        width: 90%;
+        padding: 0;
+     }
+     .get-started-container{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+     }
+     .get-start-1 , .get-start-2 {
+        width: 80%;
+     }
+     .get-start-2 {
+        margin-bottom: 50px;
+     }
+     .copyright-boder{
+        width: 95%;
+    }
 }
