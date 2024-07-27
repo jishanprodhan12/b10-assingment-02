@@ -130,8 +130,12 @@
   } */
 
    /* style .hamburger-menu start here */
+   :root{
+    --hamburger-color:white;
+    --primary-color:rgba(230, 83, 60, 1);
+   }
   .hamburger-menu{
-    border: 3px solid rgba(230, 83, 60, 1);
+    border: 3px solid var(--hamburger-color) ;
     width: 17px;
     height: 20px;
     display: flex;
@@ -139,23 +143,23 @@
     justify-content: space-evenly;
     display: none;
     .inner-line-1{
-        border: 2px solid rgba(230, 83, 60, 1);
+        border: 2px solid var(--hamburger-color);
             width: 14px;
         }
         .inner-line-2{
-        border: 2px solid rgba(230, 83, 60, 1);
+        border: 2px solid var(--hamburger-color);
             width: 14px;
         }
         .inner-line-3{
-        border: 2px solid rgba(230, 83, 60, 1);
+        border: 2px solid var(--hamburger-color);
             width: 14px;
         }
         position: relative;
 }
 
-.hamburger-menu-1{
+/* .hamburger-menu-1{
     background-color: white;
-}
+} */
 /* hamburger-menu setup start here  */
 .dropdown{
     display: none;
