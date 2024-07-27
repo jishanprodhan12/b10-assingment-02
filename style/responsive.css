@@ -9,8 +9,13 @@
     }
     .hamburger-menu{
         display: block;
-        background-color: white;
+        display: flex;
+        flex-direction: column;
     }
+    .hamburger-menu:hover .dropdown > li a {
+        display: block;        
+    }
+    
     /* nav section end  */
 
     /* banner section start  */

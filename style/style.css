@@ -124,10 +124,62 @@
       margin-left: 40px;
   }
   
-  .hamburger-menu{
+  /* .hamburger-menu{
     background-color: wheat;
     display: none;
-  }
+  } */
+
+   /* style .hamburger-menu start here */
+  .hamburger-menu{
+    border: 3px solid rgba(230, 83, 60, 1);
+    width: 17px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+    .inner-line-1{
+        border: 2px solid rgba(230, 83, 60, 1);
+            width: 14px;
+        }
+        .inner-line-2{
+        border: 2px solid rgba(230, 83, 60, 1);
+            width: 14px;
+        }
+        .inner-line-3{
+        border: 2px solid rgba(230, 83, 60, 1);
+            width: 14px;
+        }
+        position: relative;
+}
+
+.hamburger-menu-1{
+    background-color: white;
+}
+/* hamburger-menu setup start here  */
+.dropdown{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25px;
+    right: 5px;
+
+}
+.dropdown >li{
+    list-style: none;
+    gap: 3px;
+    width: 60px;
+    text-align: center;
+}
+.dropdown li a{
+    border: 1px solid white;
+    display: none;
+    text-decoration: none;
+    color: wheat;
+}
+/* hamburger-menu setup ends here  */
+
   /* navication section ends here  */
   
   /* banner section start here  */
