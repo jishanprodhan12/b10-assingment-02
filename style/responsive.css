@@ -132,12 +132,21 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .box-4 > .inner-box-4{
+        
+        align-items: flex-end ;
+        .box-4-text{
+            width: 120px;
+            padding-bottom: 10px;
+        }
+    }
     .box-5{
         display: block;
         grid-column: span 1;
 
     }
     .box-6{
+     
         display: none;
         background-position:  right ;
         background-size: cover;

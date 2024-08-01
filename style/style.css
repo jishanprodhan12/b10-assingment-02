@@ -441,9 +441,21 @@
         background-image: url('../images/exercise1.jpg');
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat;
-        
-
+        background-repeat: no-repeat;     
+    }
+    .box-1 > .inner-box-1{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(6, 255, 209, 0.306);
+        z-index: 1;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end ;
+        .box-1-text{
+            font-size: 14px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+        }
     }
     .box-2{
         background-image: url('../images/exercise2.png');
@@ -453,19 +465,66 @@
         grid-column: span 2;
 
     }
+    .box-2 > .inner-box-2{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 0, 0, 0.3);
+        z-index: 1;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start ;
+        .box-2-text{
+            font-size: 14px;
+            padding-top: 20px;
+            padding-left: 20px;
+            color: #ffff;
+        }
+    }
     .box-3{
         background-image: url('../images/exercise3.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .box-3 > .inner-box-3{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end ;
+        .box-3-text{
+            font-size: 14px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            color: #ffff;
+        }
+    }
     .box-4{
         background-image: url('../images/exercise4.png');
         background-position: center;
-        background-size: cover;
+        background-size:  cover;
         background-repeat: no-repeat;
         grid-column: span 2;
+        
       
+    }
+    .box-4 > .inner-box-4{
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        display: flex;
+        justify-content: right;
+        align-items: flex-start ;
+        .box-4-text{
+            width: 40%;
+            font-size: 14px;
+            padding-top: 20px;
+            padding-right: 20px;
+            color: #ffff;
+        }
     }
     .box-5{
         background-image: url('../images/exercise5.jpg');
@@ -474,12 +533,42 @@
         background-repeat: no-repeat;
       
     }
+    .box-5 > .inner-box-5{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(66, 255, 0, 0.3);
+        z-index: 1;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end ;
+        .box-5-text{
+            font-size: 14px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            color: #ffff;
+        }
+    }
     .box-6{
         background-image: url('../images/exercise6.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         
+    }
+    .box-6 > .inner-box-6{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 71, 255, 0.3);
+        z-index: 1;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end ;
+        .box-6-text{
+            font-size: 14px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            color: #ffff;
+        }
     }
         /* tariner and exersicses section ends here  */
 
