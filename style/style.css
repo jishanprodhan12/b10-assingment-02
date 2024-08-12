@@ -814,10 +814,9 @@
         width: 80%;
      }
      .fitness-title{
-        font-size: xx-large;
+        font-size:62px;
         font-weight: bolder;
         font-style: italic;
-        transform: scale(1.75) translateX(95px);
         margin: 20px 0;
      }
      .get-started-container{

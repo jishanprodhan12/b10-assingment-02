@@ -86,9 +86,7 @@
     .about-us-section{
         flex-direction: column;
     }
-    .fitness-title {
-        transform: scale(1.75) translateX(60px);
-    }
+    
     .about-us-peragraph{
         min-width: 420px;
     }
