@@ -203,9 +203,10 @@
   }
   .banner-title{
         color:#ffff;
-        font-size: xx-large;
+        font-size: 60px;
         font-weight: bolder;
         width: fit-content;
+        line-height: 75px;
   }
   .banner-description{
     margin-top: 26px;

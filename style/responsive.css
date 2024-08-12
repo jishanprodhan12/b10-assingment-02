@@ -28,7 +28,12 @@
         margin-top: 51px;
         
     }
-    .banner-title ,
+    .banner-title{
+        width: 244px;
+        line-height: 40px;
+        font-size: 32px;
+        font-weight: bolder;
+    } 
     .banner-description{
         margin: 10px auto;
         width: 200px;
