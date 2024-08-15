@@ -296,6 +296,24 @@
 
     /* <!-- meet our team section ends here  --> */
 
+    /*todo membership section start here  */
+    
+    .member-section-contianer{
+        height: fit-content;
+    }
+    .member-title {
+         padding: 30px 0;
+         width: 100%;
+        font-size: 28px;
+        }
+        .member-offer-container{
+           flex-direction: column;
+           gap: 20px;
+           height: fit-content;
+        }
+
+    /*! membership section start here  */
+
     /* footer section start here  */
     
     .about-us-section{

@@ -83,6 +83,21 @@
     .our-team-photo-container{
         width: 80%;
     }
+
+    .member-section-contianer{
+        height: fit-content;
+    }
+    .member-title {
+         padding: 30px 0;
+         width: 100%;
+        font-size: 28px;
+        }
+        .member-offer-container{
+           gap: 20px;
+           flex-wrap: wrap;
+           height: fit-content;
+        }
+
     .about-us-section{
         flex-direction: column;
     }
@@ -95,5 +110,6 @@
         width: 90%;
         justify-content: space-between;
     }
+   
 
 }

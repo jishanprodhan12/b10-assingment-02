@@ -792,6 +792,77 @@
             }
             /* share margin and color for photo text end  */
      /* <!-- meet our team section ends here  --> */
+  /*todo member ship section start here  */
+
+            .member{
+                max-width: 1440px;
+                height: fit-content;
+                margin: 0 auto;
+                background-color: black;
+               
+            }
+            .member-section-contianer{
+                width: 80%;
+                height: 550px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+            }
+            .member-title {
+             text-align: center;
+             padding: 30px;
+             width: calc( 100% - 60px );
+            }
+            .member-offer-container{
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .offer{
+                width: 250px;
+                height: fit-content;
+                text-align: center;
+                color: rgba(255, 255, 255, 0.7);
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                background-color: black;
+                border: 2px solid tomato;
+            }
+
+            .offer h2 {
+                background: rgb(230, 83, 60);
+                color: white;
+                padding: 10px;
+                margin-bottom: 10px
+               
+            }
+            .offer h1 {
+                color: rgba(255, 255, 255, 0.9);
+            }
+            .offer button {
+                padding: 5px 30px;
+                color: rgba(194, 111, 10, 0.721);
+                background-color: white;
+                font-weight: bold;
+                margin: 35px 0;
+                cursor: pointer;
+                background-color: black;
+                border: 2px solid rgb(230, 83, 60);
+                color: white;
+            
+            }
+            .offer p {
+                text-align: start;
+                padding-left: 75px;
+                margin-top: 5px;
+            
+            }
+
+            /* !member ship section ends  here  */
+
      /* footer section start here  */
      .about-us-section{
         max-width: 1440px;
